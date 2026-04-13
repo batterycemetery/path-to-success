@@ -64,9 +64,11 @@ table {
 }
 /*GLOBAL STYLES*/
 
-h1 {
+h1, h2 {
 	font-family: 'Kavoon', cursive;
+}
+
+h1 {
 	font-size: 3em;
 	color: var(--white);
-
 }
