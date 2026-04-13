@@ -98,4 +98,5 @@ nav {
 nav a {
 	color: var(--purple);
 	background-color: var(--white);
+	text-decoration: none;
 }
