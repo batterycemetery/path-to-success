@@ -63,3 +63,10 @@ table {
     font-family: 'Inter', sans-serif;
 }
 /*GLOBAL STYLES*/
+
+h1 {
+	font-family: 'Kavoon', cursive;
+	font-size: 3em;
+	color: var(--white);
+
+}
