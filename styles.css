@@ -66,15 +66,16 @@ table {
 
 h1, h2 {
 	font-family: 'Kavoon', cursive;
+	color: var(--white);
 }
 
 h1 {
 	font-size: 3em;
-	color: var(--white);
 }
 
 h2 {
 	font-size: 2em;
+
 }
 
 h3 {
@@ -87,4 +88,14 @@ h4 {
 
 nav h2{
 	font-size: 1.5em;
+	color: var(--dark-gray);
+}
+
+nav {
+	background-color: var(--yellow);
+}
+
+nav a {
+	color: var(--purple);
+	background-color: var(--white);
 }
