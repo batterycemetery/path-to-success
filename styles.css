@@ -61,11 +61,24 @@ table {
     --dark-gray: #1e1e1e;
     --white:#ffffff;
     font-family: 'Inter', sans-serif;
+	background-color: var(--lavender);
 }
 /*GLOBAL STYLES*/
 
 body {
-	margin: 0;
+	margin: 0 auto;
+	max-width: 450px;
+	background-color: var(--purple);
+}
+
+header {
+	text-align: center;
+
+}
+
+header p {
+	color: var(--white);
+
 }
 
 h1, h2 {
@@ -77,6 +90,8 @@ h1 {
 	font-size: 3em;
 }
 
+
+
 h2 {
 	font-size: 2em;
 
@@ -84,6 +99,7 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
+	color: var(--yellow);
 }
 
 h4 {
@@ -110,13 +126,23 @@ nav a {
 	background-color: var(--purple);
 }
 
-#our-services h2 {
+#our-services h3 {
 color: var(--yellow);
 }
 
 #our-services div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 20px;
+	background-color: var(--white);
+	margin: 20px;
+	padding: 20px;
+}
+
+
+#why-choose-us {
+	background-color: var(--pink);
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
