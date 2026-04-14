@@ -61,9 +61,14 @@ table {
     --dark-gray: #1e1e1e;
     --white:#ffffff;
     font-family: 'Inter', sans-serif;
-	background-color: var(--lavender);
 }
 /*GLOBAL STYLES*/
+
+@media (max-width: 450px) {
+	body {
+		background-color: var(--lavender;
+	}
+}
 
 h1, h2 {
 	font-family: 'Kavoon', cursive;
